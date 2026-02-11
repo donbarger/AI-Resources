@@ -435,6 +435,36 @@ body {
     transform: translateX(-4px);
 }
 
+.tool-item {
+    background-color: var(--bg-secondary);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 3px solid var(--primary-color);
+}
+
+.tool-item:last-child {
+    margin-bottom: 0;
+}
+
+.tool-item h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.tool-item p {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.tool-item .cta-button {
+    font-size: 0.9rem;
+    padding: 0.625rem 1.25rem;
+}
+
 /* About Section */
 .about-section {
     padding: 5rem 0;
